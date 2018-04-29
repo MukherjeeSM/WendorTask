@@ -23,12 +23,17 @@
   },
   "homepage": "https://github.com/MukherjeeSM/WendorTask#readme",
   "dependencies": {
+    "bcrypt": "^2.0.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.0.16",
     "morgan": "^1.9.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
+  },
+  "env": {
+      "JWT_KEY": "secret"
   }
 }
